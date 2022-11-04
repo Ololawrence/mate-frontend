@@ -1,7 +1,7 @@
-import  {Container,Form,H1, Para,LogoWrapper, Input, Wrapper, Left, Right, RoundLogo, Btn} from './signup.style.js';
+import  {Container,Form,H1, Para,LogoWrapper, Input, Wrapper, Left, Right, RoundLogo, Btn, Img} from '../signup/signup.style';
 import { Link } from 'react-router-dom';
 
-const SignUp = () => {
+const Signin = () => {
   return (
     <Container>
         
@@ -12,17 +12,18 @@ const SignUp = () => {
               <RoundLogo>Mate</RoundLogo> 
         {/* <LogoCover /> */}
             </LogoWrapper>
-            <H1>Create Account</H1>
-            <Para  mg ="auto">please input the following details  to an account  on Mate </Para>
+            <H1>Welcome Back</H1>
+            <Para  mg ="auto"> please enter your details</Para>
         <Form>
-            <Input type="text" placeholder="firstname"/>
-            <Input type="text" placeholder="Lastname"/>
+         
             <Input type="text" placeholder="username"/>
             <Input type="password" placeholder="Password"/>
-            <Btn  bg ="#5816c2" >Login</Btn>
+            <Btn bg ="#5816c2">Login</Btn>
+
+            <Btn  bg = "black"><Img src ="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"></Img>Signin with Google</Btn>
         </Form>
 
-        <Para mg="30px">Already have account <Link className='link' to="/signin">Sign in</Link></Para>
+        <Para mg="30px">Don't have an account <Link className='link' to="/create">Create</Link></Para>
 
         </Left>
           <Right>
@@ -37,4 +38,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default Signin

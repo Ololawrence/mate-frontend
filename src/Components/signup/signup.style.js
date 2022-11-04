@@ -6,6 +6,11 @@ height:100vh;
 width:100vw;
 `;
 
+export const Img = style.img`
+padding-right:10px;
+`;
+
+
 export const Wrapper = style.div`
 display:flex;
  @media ${device.mobileL} {
@@ -72,10 +77,11 @@ align-items:center;
 
 export const Btn = style.button`
 display:flex;
-flex-direction:column;
+flex-direction:row;
 align-items:center;
+justify-content:center; 
 margin-top:10px;
-background:#5816c2;
+background: ${props => props.bg === "#5816c2" ? "#5816c2" : "black"};
 width:73%;
 color:white;
 border:none;
