@@ -9,7 +9,7 @@ const Signin = () => {
    <Wrapper>
         <Left>
           <LogoWrapper pos="none">
-              <RoundLogo>Mate</RoundLogo> 
+              <RoundLogo><Link style = {{color:"white" , textDecoration:"none"}} to="/">Mate</Link></RoundLogo> 
         {/* <LogoCover /> */}
             </LogoWrapper>
             <H1>Welcome Back</H1>

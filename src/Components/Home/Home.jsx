@@ -22,10 +22,10 @@ const Home = () => {
 
       <H1>it's never too late to find a match</H1>
       <Para>its never too late  to find a match and fall in love<br /> again. find your soul mate now!</Para>
-      <Btn>Match now!</Btn>
+      <Btn><Link style = {{color:"white" , textDecoration:"none"}} to="/create">match now!</Link></Btn>
     </Left>
     <Right>
- <Img  src ={banner}/>
+         <Img  src ={banner}/>
     </Right>
     </Wrapper>
 

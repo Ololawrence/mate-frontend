@@ -9,7 +9,7 @@ const SignUp = () => {
    <Wrapper>
         <Left>
           <LogoWrapper pos="none">
-              <RoundLogo>Mate</RoundLogo> 
+              <RoundLogo ><Link style = {{color:"white" , textDecoration:"none"}} to="/">Mate</Link></RoundLogo> 
         {/* <LogoCover /> */}
             </LogoWrapper>
             <H1>Create Account</H1>
@@ -18,6 +18,8 @@ const SignUp = () => {
             <Input type="text" placeholder="firstname"/>
             <Input type="text" placeholder="Lastname"/>
             <Input type="text" placeholder="username"/>
+            <Input type="text" placeholder="sex"/>
+            <Input type="text" placeholder="I'm lookiing for a? "/>
             <Input type="password" placeholder="Password"/>
             <Btn  bg ="#5816c2" >Login</Btn>
         </Form>
