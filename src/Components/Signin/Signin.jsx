@@ -23,12 +23,12 @@ const Signin = () => {
             <Btn  bg = "black"><Img src ="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"></Img>Signin with Google</Btn>
         </Form>
 
-        <Para mg="30px">Don't have an account <Link className='link' to="/create">Create</Link></Para>
+        <Para mg="30px">Don't have an account <Link style = {{ textDecoration:"none", fontSize:"14px"}} to="/create">Create</Link></Para>
 
         </Left>
           <Right>
             <LogoWrapper pos="flex">
-               <RoundLogo>Mate</RoundLogo> 
+               <RoundLogo><Link style = {{color:"white" , textDecoration:"none"}} to="/">Mate</Link></RoundLogo> 
         {/* <LogoCover /> */}
             </LogoWrapper>
           </Right>

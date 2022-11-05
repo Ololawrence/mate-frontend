@@ -3,7 +3,9 @@ import BoltIcon from '@mui/icons-material/Bolt';
 import Card from '../Card/Card.jsx';
 import banner from '../../assests/banner1.png';
 import feature from '../../assests/feature.jpg';
-import Diversity3Icon from '@mui/icons-material/Diversity3';
+import Footer from '../Footer/Foter';
+
+import {Link} from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -12,7 +14,7 @@ const Home = () => {
     <Nav>
       <Logo>Mate</Logo>
 
-      <Create> create Account</Create>
+      <Create> <Link style = {{color:"whitesmoke", textDecoration:"none"}} to="/create">create Account</Link></Create>
     </Nav>
     <Wrapper>
     <Left>
@@ -42,6 +44,8 @@ const Home = () => {
       </SecLeft>
  
     </Section>
+
+    <Footer />
   </Container>
   )
 }

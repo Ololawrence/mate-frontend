@@ -2,7 +2,7 @@ import style from "styled-components";
 import banner from "../../assests/banner1.png";
 
 export const Container = style.div`
-    width:100vw;
+
     height:100vh;
 
 `;
@@ -43,6 +43,8 @@ display:flex;
 align-items:center;
 justify-content:center;
 opacity:0.8;
+font-size:12px;
+
 `;
 
 export const Left = style.div`
@@ -133,6 +135,6 @@ gap:10px;
 `;
 export const SecRight = style.div`
 flex:1.1;
-padding-right:50px;
-padding-left:30px;
+padding-right:40px;
+padding-left:20px;
 `;

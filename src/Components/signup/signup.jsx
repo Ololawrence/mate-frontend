@@ -27,7 +27,7 @@ const SignUp = () => {
         </Left>
           <Right>
             <LogoWrapper pos="flex">
-               <RoundLogo>Mate</RoundLogo> 
+               <RoundLogo><Link style = {{color:"white" , textDecoration:"none"}} to="/">Mate</Link></RoundLogo> 
         {/* <LogoCover /> */}
             </LogoWrapper>
           </Right>
