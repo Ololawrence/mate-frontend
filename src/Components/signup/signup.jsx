@@ -21,7 +21,7 @@ const SignUp = () => {
             <Input type="text" placeholder="sex"/>
             <Input type="text" placeholder="I'm lookiing for a? "/>
             <Input type="password" placeholder="Password"/>
-            <Btn  bg ="#5816c2" >Login</Btn>
+            <Btn  bg ="#5816c2" >Sign up</Btn>
         </Form>
 
         <Para mg="30px">Already have account <Link className='link' to="/signin">Sign in</Link></Para>
